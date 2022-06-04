@@ -1,0 +1,612 @@
+header{
+
+    display: flex;
+        align-content: center;
+    align-items: center;
+    
+    background-color: #ff9f00;
+height: 8%;
+
+}
+
+.logo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+width: 15%;
+
+}
+
+
+
+body{
+    
+    width: 100%;
+    
+    margin:0;
+  padding:0;
+   }  
+
+
+   .logo2{
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+     width: 25%;
+     padding-left: 36%;
+  
+
+
+}
+
+
+
+
+.botones{
+
+width: 100%;
+justify-content: center;
+display: flex;
+align-content: center;
+align-items: center;
+margin-bottom: 11%;
+
+
+}
+
+.InicioSe{
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+   width: 10%;
+    padding-top: 1%;
+    border-radius: 18px;
+    padding-bottom: 1%;
+    justify-content: center;
+    font-size: 100%;
+    background-color: #ff9f00;
+    cursor: pointer;
+
+
+}
+
+
+.InicioSe:hover{
+
+
+
+    background-color:#b28235;
+    cursor: pointer;
+    
+    
+}
+   
+
+.BotonRegistro{
+    display: flex;
+    align-content: center;
+    align-items: center;
+   width: 10%;
+   padding-top: 1%;
+   border-radius: 18px;
+   padding-bottom: 1%;
+    justify-content: center;
+    font-size: 100%;
+    background-color: #ff9f00;
+    cursor: pointer;
+    margin-left: 1%;
+    
+    
+    }
+    
+    
+    .BotonRegistro:hover{
+    
+    
+    
+        background-color:#b28235;
+        cursor: pointer;
+        
+        
+    }
+
+
+
+    footer{
+
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        height:9%;
+        background-color: #ff9f00;
+        justify-content:center;
+        align-items:center;
+
+
+    }
+
+
+
+      /* VENTANA REGISTRO */
+
+
+
+.pop-up{
+
+    background: #ff9f00(48, 48, 48, 0.5);
+    position: fixed;
+  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+
+.pop-up-wrap{
+    display: flex;
+    align-items: center;
+    width: 25%;
+  
+    transform: scale(0.6);
+    opacity: 0;
+   
+}
+
+h2{
+  
+    color: #ff9f00;
+    border-bottom: 2px solid #000000;
+    margin: 1% 0;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-bottom: 3px solid ;
+    width: 99%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+.formRegistry{
+    
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Monserrat", sans-serif;
+    box-shadow: 0 0 15px 10px rgb(0, 0, 0);
+    padding: 20px 30px;
+    margin: 0 auto;
+    
+}
+
+p{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #ff9f00;
+    background: none;
+    padding: 1%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input{
+  
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    background: none;
+    transition-duration: 1sg;
+    color: gray;
+   
+    
+}
+
+select{
+
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: aliceblue;
+    transition-duration: 1sg;
+    color: gray;
+    
+
+}
+
+button{
+  
+    cursor: pointer;
+    border:#000000;
+    padding: 5px 10px;
+    color: black;
+    transition-duration: 0.3;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: #ff9f00; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+button:hover{
+
+    background-color:#b28235;
+    cursor: pointer;
+
+
+}
+
+
+#close{
+    position: absolute;
+    top: 1%;
+   padding-left: 82%;
+    font-size: 25px;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.pop-up.show{
+
+    visibility:visible;
+
+}
+
+.pop-up-wrap.show{
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+
+/* INICIO SESION */
+
+
+.pop-up2{
+
+    background: #ff9f00(48, 48, 48, 0.5);
+    position: fixed;
+  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+
+.pop-up-wrap2{
+    display: flex;
+    align-items: center;
+    width: 25%;
+  
+    transform: scale(0.6);
+    opacity: 0;
+   
+}
+
+
+
+
+.formLogin{
+    
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Monserrat", sans-serif;
+    box-shadow: 0 0 15px 10px rgb(0, 0, 0);
+    padding: 20px 30px;
+    margin: 0 auto;
+}
+
+
+
+#close2{
+    position: absolute;
+    top: 1%;
+   padding-left: 82%;
+    font-size: 25px;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.pop-up2.show{
+
+    visibility:visible;
+
+}
+
+.pop-up-wrap2.show{
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+
+
+    .logo{
+
+        width: 35%;
+        
+        }
+
+
+}
+
+
+.logo2{
+
+ 
+     width: 70%;
+     padding-left: 15%;
+     padding-top: 10%;
+  
+
+
+}
+
+
+.botones{
+
+    width: 400px;
+
+    margin-bottom: 52%;
+   padding-right: 15%;
+    
+    
+    }
+    .InicioSe{
+
+  
+        width: 180px;
+    
+    
+    
+    }
+    
+    
+
+       
+    
+    .BotonRegistro{
+
+        width: 180px;
+        }
+        
+
+ 
+        
+        
+        .pop-up-wrap{
+       padding-right: 25%;
+           
+        }
+        .formRegistry{
+            
+            width: 900px;
+ 
+            
+        }
+
+
+        #close{
+               
+            top: 2%;
+           padding-left: 54%;
+            
+        }
+
+
+
+
+        .pop-up-wrap2{
+            padding-right: 18%;
+            width:35%;
+                
+             }
+             .formLogin{
+                 
+                 width:250%;
+      
+                 
+             }
+
+
+
+
+             #close2{
+               
+                top: 2%;
+               padding-left: 42%;
+                
+            }
+
+
+
+            @media only screen and (min-width: 410px) {
+
+
+
+
+                .logo2{
+
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    justify-content: center;
+                     width: 25%;
+                     padding-left: 36%;
+                     padding-top: 0%;
+                  
+                
+                
+                }
+                
+
+
+
+                .logo{
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                width: 15%;
+                
+                }
+
+
+
+
+                .botones{
+
+                    width: 100%;
+                    justify-content: center;
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    margin-bottom: 11%;
+                    
+                    
+                    }
+                    
+                    .InicioSe{
+
+                        display: flex;
+                        align-content: center;
+                        align-items: center;
+                       width: 10%;
+                        padding-top: 1%;
+                        border-radius: 18px;
+                        padding-bottom: 1%;
+                        justify-content: center;
+                        font-size: 100%;
+                        background-color: #ff9f00;
+                        cursor: pointer;
+                    
+                    
+                    }
+                    
+                    
+                    .BotonRegistro{
+                        display: flex;
+                        align-content: center;
+                        align-items: center;
+                       width: 10%;
+                       padding-top: 1%;
+                       border-radius: 18px;
+                       padding-bottom: 1%;
+                        justify-content: center;
+                        font-size: 100%;
+                        background-color: #ff9f00;
+                        cursor: pointer;
+                        margin-left: 1%;
+                        
+                        
+                        }
+                        
+                
+                 
+                        
+                        .pop-up-wrap{
+                            display: flex;
+                            align-items: center;
+                            width: 25%;
+                          
+                            transform: scale(0.6);
+                            opacity: 0;
+                            padding-right: 0%;
+                           
+                        }
+                        .formRegistry{
+    
+                            width: 100%;
+                            background-color: white;
+                            border-radius: 8px;
+                            box-sizing: border-box;
+                            font-family: "Monserrat", sans-serif;
+                            box-shadow: 0 0 15px 10px rgb(0, 0, 0);
+                            padding: 20px 30px;
+                            margin: 0 auto;
+                            
+                        }
+                        #close{
+                            position: absolute;
+                            top: 1%;
+                           padding-left: 82%;
+                            font-size: 25px;
+                            color: #000000;
+                            cursor: pointer;
+                        }
+                
+                
+                
+                        .pop-up-wrap2{
+                            display: flex;
+                            align-items: center;
+                            width: 25%;
+                          
+                            transform: scale(0.6);
+                            opacity: 0;
+                            padding-right: 0%;
+                           
+                        }
+                        
+                        .formLogin{
+    
+                            width: 100%;
+                            background-color: white;
+                            border-radius: 8px;
+                            box-sizing: border-box;
+                            font-family: "Monserrat", sans-serif;
+                            box-shadow: 0 0 15px 10px rgb(0, 0, 0);
+                            padding: 20px 30px;
+                            margin: 0 auto;
+                        }
+                        
+                
+                
+                
+                        #close2{
+                            position: absolute;
+                            top: 1%;
+                           padding-left: 82%;
+                            font-size: 25px;
+                            color: #000000;
+                            cursor: pointer;
+                        }
+                        
+                
+
+
+
+            }

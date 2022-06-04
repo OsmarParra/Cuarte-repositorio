@@ -1,0 +1,473 @@
+vheader {
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    background-color: #ff9f00;
+    height: 8%;
+
+}
+
+.logo {
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 15%;
+
+}
+
+
+.logos {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 76%;
+
+}
+
+.lupa {
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.lupa:hover {
+
+    opacity: 60%;
+
+
+}
+
+.usuario {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.usuario:hover {
+
+    opacity: 60%;
+
+
+}
+
+body {
+
+    width: 100%;
+
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.facebook{
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.facebook:hover{
+
+    opacity: 60%;
+}
+.instagram{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.instagram:hover{
+
+    opacity: 60%;
+
+}
+
+.github{
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+
+
+}
+
+.github:hover{
+
+    opacity: 60%;
+
+
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ 
+    background-color: #ff9f00;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.galeria1{
+display: flex;
+align-items: space-between;
+align-content:space-between;
+justify-content: space-between;
+width: 100%;
+
+}
+
+.galeria2{
+    display: flex;
+    align-items: space-between;
+    align-content:space-between;
+    justify-content: space-between;
+    width: 100%;
+    
+    }
+
+.receta1 {
+
+  
+    display: flex;
+    align-items: center;
+    align-content:center;
+    justify-content: center;
+   
+
+}
+
+
+
+.rectangulo1 {
+
+
+    position: absolute;
+    z-index: 4;
+    width: 760px;
+    height: 40px;
+    padding-top: 80px;
+    opacity: 70%;
+
+}
+
+
+
+
+
+
+
+
+.categorias {
+
+    width: 760px;
+    height: 300px;
+    cursor: pointer;
+
+
+}
+.categorias:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+
+
+.texto1 {
+
+
+    position: absolute;
+    z-index: 4;
+
+    top: 295px;
+
+    margin-left: 0px;
+    background-color: transparent;
+    border-radius: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+
+.texto1:hover {
+    background-color: #ff9f00;
+    cursor: pointer;
+
+
+
+}
+
+.texto2 {
+
+
+    position: absolute;
+    z-index: 4;
+    bottom: 23px;
+  
+    background-color: transparent;
+    border-radius: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+
+
+}
+
+.texto2:hover {
+    background-color: #ff9f00;
+    cursor: pointer;
+
+
+
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+
+    .logo {
+
+
+        width: 35%;
+
+    }
+
+
+
+    .logos {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 50%;
+        padding-left: 35%;
+        background-color: transparent;
+        border: none;
+
+    }
+
+    .previous_btn {
+        color: #000000;
+        top: 70px;
+        right: 300px;
+        margin: auto;
+        position: absolute;
+
+        z-index: 2;
+    }
+
+    .next_btn {
+        color: #000000;
+        top: 70px;
+        margin: auto;
+        position: absolute;
+        left: 300px;
+
+        z-index: 2;
+    }
+
+
+    .primera {
+
+        position: absolute;
+        z-index: 1;
+
+
+
+
+    }
+
+    .segunda {
+
+        position: absolute;
+        z-index: 1;
+        width: 50%;
+        padding-left: 190px;
+
+
+
+
+    }
+
+
+    .categorias {
+
+        width: 190px;
+        height: 200px;
+
+
+    }
+
+
+    .texto1 {
+
+
+        position: absolute;
+        z-index: 4;
+    
+        top: 245px;
+    
+        margin-left: 0px;
+        background-color: transparent;
+        border-radius: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        cursor: pointer;
+    
+    }
+
+    
+    .texto2 {
+    
+    
+        position: absolute;
+        z-index: 4;
+        bottom: 190px;
+      
+        background-color: transparent;
+        border-radius: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        cursor: pointer;
+    
+    
+    
+    }
+
+
+
+
+    .rectangulo1 {
+
+
+        position: absolute;
+        z-index: 3;
+        width: 760px;
+        height: 40px;
+        padding-top: 80px;
+        opacity: 50%;
+    
+    }
+
+
+
+
+    h2{
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+}
+
+
+
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    background-color: #ff9f00;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+@media only screen and (min-width: 450px) {
+
+
+
+
+
+    .logo {
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 15%;
+
+    }
+
+    .logos {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 76%;
+
+    }
+
+    .previous_btn {
+        color: #000000;
+        top: 70px;
+        right: 1000px;
+        margin: auto;
+        position: absolute;
+
+        z-index: 2;
+    }
+
+    .next_btn {
+        color: #000000;
+        top: 70px;
+        margin: auto;
+        position: absolute;
+        left: 1000px;
+
+        z-index: 2;
+    }
+
+    footer {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        background-color: #ff9f00;
+        justify-content: center;
+        align-items: center;
+      
+    }
+
+    h2{
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
